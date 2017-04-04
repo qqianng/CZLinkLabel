@@ -19,12 +19,27 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    CZLinkLabel *label = [[CZLinkLabel alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
-    NSMutableAttributedString *attrTextM = [[NSMutableAttributedString alloc] initWithString:@"http://www.baidu.com/ @jane #广州天气# <abc vip>"];
-    [attrTextM addAttribute:NSForegroundColorAttributeName value:[UIColor yellowColor] range:NSMakeRange(0, attrTextM.length)];
-    label.attributedText = attrTextM;
-    label.numberOfLines = 0;
-    [self.view addSubview:label];
+    //use label`s text property.
+    CZLinkLabel *label1 = [[CZLinkLabel alloc] initWithFrame:CGRectMake(100, 100, 300, 30)];
+    label1.text = @"我已阅读并同意《用户协议》";
+    label1.linkBlock = ^ (CZLink *link) {
+        NSLog(@"user did click the link, the text of link is %@", link.text);
+        //custom operation。。。
+    };
+    [self.view addSubview:label1];
+    
+    
+    // use label`s attributedText property
+    CZLinkLabel *label2 = [[CZLinkLabel alloc] initWithFrame:CGRectMake(100, 200, 200, 100)];
+    label2.linkBlock = ^ (CZLink *link) {
+        NSLog(@"user did click the link, the text of link is %@", link.text);
+        //custom operation。。。
+    };
+    NSMutableAttributedString *attrTextM = [[NSMutableAttributedString alloc] initWithString:@"这是链接http://www.baidu.com/    这是呼叫@jane   这是话题#广州天气#  这是协议<some protocol>"];
+    [attrTextM addAttribute:NSForegroundColorAttributeName value:[UIColor orangeColor] range:NSMakeRange(0, attrTextM.length)];
+    label2.attributedText = attrTextM;
+    label2.numberOfLines = 0;
+    [self.view addSubview:label2];
 }
 
 

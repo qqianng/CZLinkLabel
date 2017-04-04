@@ -97,7 +97,7 @@
     CZLink *clickLink = [self getClickLinkWithPoint:point];
     //处理事件
     if (clickLink) {
-        NSLog(@"%@",clickLink.text);
+//        NSLog(@"%@",clickLink.text);
         
         if (self.linkBlock) {
             self.linkBlock(self.selectedLink);
@@ -182,7 +182,7 @@
     NSInteger indexOfCharacter = [layoutManager characterIndexForPoint:locationOfTouchInTextContainer
                                                        inTextContainer:textContainer
                               fractionOfDistanceBetweenInsertionPoints:nil];
-    NSLog(@"indexOfCharacter -- %ld",indexOfCharacter);
+//    NSLog(@"indexOfCharacter -- %ld",indexOfCharacter);
     
     CZLink *clickLink = nil;
     // 查找连接
