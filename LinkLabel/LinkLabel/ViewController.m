@@ -11,6 +11,9 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet CZLinkLabel *xibLinkLabel;
+
+
 @end
 
 @implementation ViewController
@@ -40,6 +43,13 @@
     label2.attributedText = attrTextM;
     label2.numberOfLines = 0;
     [self.view addSubview:label2];
+    
+    
+    //use xib
+    self.xibLinkLabel.linkBlock = ^ (CZLink *link) {
+        NSLog(@"user did click the link, the text of link is %@", link.text);
+        //custom operation。。。
+    };
 }
 
 
