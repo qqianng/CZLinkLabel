@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D571DD891E6E96C5007886AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D571DD881E6E96C5007886AA /* main.m */; };
-		D571DD8C1E6E96C5007886AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D571DD8B1E6E96C5007886AA /* AppDelegate.m */; };
-		D571DD8F1E6E96C5007886AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D571DD8E1E6E96C5007886AA /* ViewController.m */; };
-		D571DD921E6E96C5007886AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D571DD901E6E96C5007886AA /* Main.storyboard */; };
-		D571DD941E6E96C5007886AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D571DD931E6E96C5007886AA /* Assets.xcassets */; };
-		D571DD971E6E96C5007886AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D571DD951E6E96C5007886AA /* LaunchScreen.storyboard */; };
-		D571DDA21E6E96C5007886AA /* LinkLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D571DDA11E6E96C5007886AA /* LinkLabelTests.m */; };
-		D571DDAD1E6E96C5007886AA /* LinkLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D571DDAC1E6E96C5007886AA /* LinkLabelUITests.m */; };
-		D571DDBC1E6E9711007886AA /* CZLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D571DDBB1E6E9711007886AA /* CZLinkLabel.m */; };
+		6ACB98312058C5DC0055EC59 /* CZLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB98302058C5DC0055EC59 /* CZLinkLabel.m */; };
+		6ACB983E2058C5E50055EC59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB98342058C5E50055EC59 /* AppDelegate.m */; };
+		6ACB983F2058C5E50055EC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB98352058C5E50055EC59 /* Assets.xcassets */; };
+		6ACB98402058C5E50055EC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB98362058C5E50055EC59 /* LaunchScreen.storyboard */; };
+		6ACB98412058C5E50055EC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB98382058C5E50055EC59 /* Main.storyboard */; };
+		6ACB98422058C5E50055EC59 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6ACB983A2058C5E50055EC59 /* Info.plist */; };
+		6ACB98432058C5E50055EC59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB983B2058C5E50055EC59 /* main.m */; };
+		6ACB98442058C5E50055EC59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB983D2058C5E50055EC59 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,24 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6ACB982F2058C5DC0055EC59 /* CZLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLinkLabel.h; sourceTree = "<group>"; };
+		6ACB98302058C5DC0055EC59 /* CZLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLinkLabel.m; sourceTree = "<group>"; };
+		6ACB98332058C5E50055EC59 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ACB98342058C5E50055EC59 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ACB98352058C5E50055EC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ACB98372058C5E50055EC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ACB98392058C5E50055EC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ACB983A2058C5E50055EC59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACB983B2058C5E50055EC59 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ACB983C2058C5E50055EC59 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ACB983D2058C5E50055EC59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D571DD841E6E96C5007886AA /* LinkLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D571DD881E6E96C5007886AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D571DD8A1E6E96C5007886AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D571DD8B1E6E96C5007886AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D571DD8D1E6E96C5007886AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D571DD8E1E6E96C5007886AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D571DD911E6E96C5007886AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D571DD931E6E96C5007886AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D571DD961E6E96C5007886AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D571DD981E6E96C5007886AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D571DD9D1E6E96C5007886AA /* LinkLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D571DDA11E6E96C5007886AA /* LinkLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkLabelTests.m; sourceTree = "<group>"; };
-		D571DDA31E6E96C5007886AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D571DDA81E6E96C5007886AA /* LinkLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D571DDAC1E6E96C5007886AA /* LinkLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkLabelUITests.m; sourceTree = "<group>"; };
-		D571DDAE1E6E96C5007886AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D571DDBA1E6E9711007886AA /* CZLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLinkLabel.h; sourceTree = "<group>"; };
-		D571DDBB1E6E9711007886AA /* CZLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLinkLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +76,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ACB982E2058C5DC0055EC59 /* CZLinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB982F2058C5DC0055EC59 /* CZLinkLabel.h */,
+				6ACB98302058C5DC0055EC59 /* CZLinkLabel.m */,
+			);
+			name = CZLinkLabel;
+			path = ../CZLinkLabel;
+			sourceTree = "<group>";
+		};
+		6ACB98322058C5E50055EC59 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB98332058C5E50055EC59 /* AppDelegate.h */,
+				6ACB98342058C5E50055EC59 /* AppDelegate.m */,
+				6ACB98352058C5E50055EC59 /* Assets.xcassets */,
+				6ACB98362058C5E50055EC59 /* LaunchScreen.storyboard */,
+				6ACB98382058C5E50055EC59 /* Main.storyboard */,
+				6ACB983A2058C5E50055EC59 /* Info.plist */,
+				6ACB983B2058C5E50055EC59 /* main.m */,
+				6ACB983C2058C5E50055EC59 /* ViewController.h */,
+				6ACB983D2058C5E50055EC59 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		D571DD7B1E6E96C5007886AA = {
 			isa = PBXGroup;
 			children = (
-				D571DD861E6E96C5007886AA /* LinkLabel */,
-				D571DDA01E6E96C5007886AA /* LinkLabelTests */,
-				D571DDAB1E6E96C5007886AA /* LinkLabelUITests */,
+				6ACB982E2058C5DC0055EC59 /* CZLinkLabel */,
+				6ACB98322058C5E50055EC59 /* Demo */,
 				D571DD851E6E96C5007886AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,50 +119,6 @@
 				D571DDA81E6E96C5007886AA /* LinkLabelUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D571DD861E6E96C5007886AA /* LinkLabel */ = {
-			isa = PBXGroup;
-			children = (
-				D571DD8A1E6E96C5007886AA /* AppDelegate.h */,
-				D571DD8B1E6E96C5007886AA /* AppDelegate.m */,
-				D571DD8D1E6E96C5007886AA /* ViewController.h */,
-				D571DD8E1E6E96C5007886AA /* ViewController.m */,
-				D571DDBA1E6E9711007886AA /* CZLinkLabel.h */,
-				D571DDBB1E6E9711007886AA /* CZLinkLabel.m */,
-				D571DD901E6E96C5007886AA /* Main.storyboard */,
-				D571DD931E6E96C5007886AA /* Assets.xcassets */,
-				D571DD951E6E96C5007886AA /* LaunchScreen.storyboard */,
-				D571DD981E6E96C5007886AA /* Info.plist */,
-				D571DD871E6E96C5007886AA /* Supporting Files */,
-			);
-			path = LinkLabel;
-			sourceTree = "<group>";
-		};
-		D571DD871E6E96C5007886AA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D571DD881E6E96C5007886AA /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D571DDA01E6E96C5007886AA /* LinkLabelTests */ = {
-			isa = PBXGroup;
-			children = (
-				D571DDA11E6E96C5007886AA /* LinkLabelTests.m */,
-				D571DDA31E6E96C5007886AA /* Info.plist */,
-			);
-			path = LinkLabelTests;
-			sourceTree = "<group>";
-		};
-		D571DDAB1E6E96C5007886AA /* LinkLabelUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D571DDAC1E6E96C5007886AA /* LinkLabelUITests.m */,
-				D571DDAE1E6E96C5007886AA /* Info.plist */,
-			);
-			path = LinkLabelUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D571DD7F1E6E96C5007886AA /* Build configuration list for PBXProject "LinkLabel" */;
+			buildConfigurationList = D571DD7F1E6E96C5007886AA /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -251,9 +227,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D571DD971E6E96C5007886AA /* LaunchScreen.storyboard in Resources */,
-				D571DD941E6E96C5007886AA /* Assets.xcassets in Resources */,
-				D571DD921E6E96C5007886AA /* Main.storyboard in Resources */,
+				6ACB98422058C5E50055EC59 /* Info.plist in Resources */,
+				6ACB98412058C5E50055EC59 /* Main.storyboard in Resources */,
+				6ACB983F2058C5E50055EC59 /* Assets.xcassets in Resources */,
+				6ACB98402058C5E50055EC59 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D571DD8F1E6E96C5007886AA /* ViewController.m in Sources */,
-				D571DD8C1E6E96C5007886AA /* AppDelegate.m in Sources */,
-				D571DD891E6E96C5007886AA /* main.m in Sources */,
-				D571DDBC1E6E9711007886AA /* CZLinkLabel.m in Sources */,
+				6ACB983E2058C5E50055EC59 /* AppDelegate.m in Sources */,
+				6ACB98432058C5E50055EC59 /* main.m in Sources */,
+				6ACB98442058C5E50055EC59 /* ViewController.m in Sources */,
+				6ACB98312058C5DC0055EC59 /* CZLinkLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D571DDA21E6E96C5007886AA /* LinkLabelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D571DDAD1E6E96C5007886AA /* LinkLabelUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,20 +292,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D571DD901E6E96C5007886AA /* Main.storyboard */ = {
+		6ACB98362058C5E50055EC59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D571DD911E6E96C5007886AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D571DD951E6E96C5007886AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D571DD961E6E96C5007886AA /* Base */,
+				6ACB98372058C5E50055EC59 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6ACB98382058C5E50055EC59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACB98392058C5E50055EC59 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,7 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LinkLabel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CZ.LinkLabel;
@@ -442,7 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LinkLabel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CZ.LinkLabel;
@@ -499,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D571DD7F1E6E96C5007886AA /* Build configuration list for PBXProject "LinkLabel" */ = {
+		D571DD7F1E6E96C5007886AA /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D571DDAF1E6E96C5007886AA /* Debug */,
